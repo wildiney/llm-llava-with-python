@@ -19,3 +19,13 @@ ollama pull llava
 ## Running
 
 The image to be described can be inside the images folder and then you can use relative path or you can indicate the full path to the image in your system like C:\\Users\\User\\ImageFolder\\image.(png | jpg) in the llava/app.py.
+
+## Examples
+
+You can ask for:
+
+- describe the image
+- how many X things are in the image
+- provide X keywords describing the image (separated by commas)
+
+Tip: You can ask in portuguese (tested)
