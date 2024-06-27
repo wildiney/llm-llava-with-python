@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llava"
+version = "0.1.0"
+description = "An example of LLM use with python for describing images"
+authors = ["Wildiney Di Masi <wildiney@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ollama = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
